@@ -1,0 +1,75 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    height: 500px;
+    margin: 30px;
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 5px;
+    padding: 2px;
+}
+.name{
+    color: darkorange;
+}
+p{
+    color: gray;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, tomato, rgba(155, 109, 72, 0.849));
+    border: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: rgb(244, 246, 248);
+    font-weight: bold;
+}
+.half-width img{
+    width: 70%;
+}
+.header-class{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+}
+
+.bg-class{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+}
+
+.latest-work h1{
+    font-style: normal;
+    text-align: center;
+}
+div img{
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+}
+
+.footer-class{
+    text-align: center;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+}
+
+.footer-msg{
+    align-items: center;
+    border: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(148, 61, 45), rgba(236, 60, 16, 0.849));
+    width: 500px;
+}
